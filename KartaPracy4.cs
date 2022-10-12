@@ -9,6 +9,7 @@ namespace ConsoleApp10
 {
     internal class Program
     {
+        //Zad 1
         /*kp1z1
         public static int kp1z1(int a, int b)
         {
@@ -62,8 +63,54 @@ namespace ConsoleApp10
             }
             return alist;
         }*/
+
+        /*Zad 2
+        public static int Zad2(int n)
+        {
+            int suma = 0;
+            int cyfra;
+            while(n > 0)
+            {
+                cyfra = n % 10;
+                suma += cyfra;
+                n = n / 10;
+            }
+        }*/
+
+        /*Zad 3
+        public static int Zad3(int n)
+        {
+            if(n == 0)
+            {
+                return 1;
+            }
+            return n * Zad3(n - 1);
+        }*/
+
+        /*Ankieta
+        public static int Ankieta(int n)
+        {
+            for(int i = 1; i <= n; i++)
+            {
+                return n * Ankieta(n - 1);
+            }
+        }*/
+
+        /*Zad 4
+        public static int Zad4(int n)
+        {
+            if(n < 2)
+            {
+                return 1;
+            }
+            else
+            {
+                return Zad4(n - 1) + Zad4(n - 2);
+            }
+        }*/
         static void Main(string[] args)
         {
+            //Zad 1
             /*kp1z1
             int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
@@ -93,3 +140,4 @@ namespace ConsoleApp10
         }
     }
 }
+
