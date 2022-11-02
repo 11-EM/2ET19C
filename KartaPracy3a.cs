@@ -71,11 +71,11 @@ namespace ConsoleApp8
             {
                 for (int j = 1; j < n + 1; j++)
                 {
-                    if (i + j == n / 2 + 2 || i + j == ) Console.Write("*");
+                    if (i + j == n / 2 + 2 || i + j == n + n/2 + 1 || i - j == n/2 || i - j == -(n/2)) Console.Write("*");
                     else Console.Write(" ");
                 }
                 Console.WriteLine();
             }
-        }   
+        }
     }
 }
