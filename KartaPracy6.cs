@@ -128,7 +128,7 @@ using System;
              int suma = 0, max = 0; 
              Console.WriteLine("Podaj ile liczb dwucyfrowych podzielnych przez 37 chcesz dodać: "); 
              int n = int.Parse(Console.ReadLine()); 
-             for (int i = 100; i < 1000; i++) 
+             for (int i = 1000; i > 100; i--) 
              { 
                  if (i % 37 == 0 && max < n) 
                  { 
